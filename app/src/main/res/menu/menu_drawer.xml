@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/telegram"
+        android:title="@string/item_Telegram"
+        android:icon="@drawable/ic_drawer_telegram"/>
+    <item
+        android:id="@+id/rate"
+        android:title="@string/item_Rate"
+        android:icon="@drawable/round_star_24"/>
+    <item
+        android:id="@+id/share"
+        android:title="@string/item_Share"
+        android:icon="@drawable/twotone_share_24"/>
+    <item
+        android:id="@+id/aboutUs"
+        android:title="@string/item_AboutUs"
+        android:icon="@drawable/twotone_info_24"/>
+    <item
+        android:id="@+id/exit"
+        android:title="@string/item_Exit"
+        android:icon="@drawable/round_exit_to_app_24"/>
+
+
+</menu>

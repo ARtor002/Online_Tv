@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_tv"
+        android:title="@string/item_Television"
+        android:icon="@drawable/baseline_tv_24"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="@color/colorPrimary"/>
+
+    <item
+        android:id="@+id/item_Satellite"
+        android:title="@string/item_Satellite"
+        android:icon="@drawable/baseline_satellite_alt_24"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="@color/colorPrimary"/>
+
+    <item
+        android:id="@+id/item_Radio"
+        android:title="@string/item_Radio"
+        android:icon="@drawable/round_radio_24"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="@color/colorPrimary"/>
+
+        <item
+        android:id="@+id/item_Favorite"
+        android:title="@string/item_Favorite"
+        android:icon="@drawable/round_favorite_24"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="@color/colorPrimary"/>
+
+
+</menu>

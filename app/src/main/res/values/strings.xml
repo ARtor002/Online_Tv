@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Online TV</string>
+    <string name="item_Television">Television</string>
+    <string name="item_Satellite">Satellite</string>
+    <string name="item_Radio">Radio</string>
+    <string name="item_Favorite">Favorite</string>
+    <string name="item_Rate">Rate App</string>
+    <string name="item_Exit">Exit</string>
+    <string name="item_Share">Share</string>
+    <string name="item_AboutUs">About Us</string>
+    <string name="item_Telegram">Telegram Channel</string>
+    <string name="telegram">https://t.me/ProgPack</string>
+    <string name="failed_load">Failed_Load</string>
+
+
+</resources>
