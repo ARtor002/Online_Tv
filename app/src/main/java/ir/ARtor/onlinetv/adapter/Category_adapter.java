@@ -8,6 +8,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.bumptech.glide.Glide;
+
 import java.util.List;
 import ir.ARtor.onlinetv.R;
 import ir.ARtor.onlinetv.models.Category_model;
@@ -32,7 +35,12 @@ public class Category_adapter extends RecyclerView.Adapter<Category_adapter.MyVi
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        list.get(position).setImg_add();
+        Category_model cModel = list.get(position);
+        Glide.with(context).load(cModel.getImg_add()).into(holder.imageView);
+//        list.get(position).setImg_add();
+        holder.textView.setText(cModel.getName_en());
+
+
     }
 
     @Override

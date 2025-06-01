@@ -85,7 +85,6 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
         });
     }
 
-
     private void onclick() {
         imageView_menu.setOnClickListener(this);
         textView_menu.setOnClickListener(this);

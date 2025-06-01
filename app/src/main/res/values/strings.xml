@@ -10,7 +10,7 @@
     <string name="item_AboutUs">About Us</string>
     <string name="item_Telegram">Telegram Channel</string>
     <string name="telegram">https://t.me/ProgPack</string>
-    <string name="failed_load">Failed_Load</string>
+    <string name="failed_load">Failed Load Data From Server</string>
 
 
 </resources>
